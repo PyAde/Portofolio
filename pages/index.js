@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { AiFillGithub, AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import Image from "next/image";
-import deo from "../public/Profile2.png";
+import deo from "../public/profile.png";
 import icon from "../public/figmaa.svg";
 import website from "../public/website.svg";
 import figma from "../public/project.png";
