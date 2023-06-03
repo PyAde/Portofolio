@@ -18,10 +18,10 @@ function Navbar() {
 
   return (
     <nav
-      className={`py-4 md:py-10 mb-12 flex flex-col md:flex-row justify-between fixed top-0 left-0 w-full bg-transparent shadow-md z-10 transition duration-300 ease-in-out ${
+      className={`py-4 md:py-10 mb-12 flex flex-col md:flex-row justify-between fixed top-0 left-0 w-full bg-transparent backdrop-filter backdrop-blur-md shadow-md z-10 transition duration-300 ease-in-out ${
         isScrolled ? "scrolled" : ""
       }`}>
-      <h1 className='text-xl pl-5 font-poppins text-violet-500 mb-4 md:mb-0'>
+      <h1 className='text-xl pl-5 font-poppins text-cyan-500 mb-4 md:mb-0'>
         Developer
       </h1>
       <div>
@@ -35,7 +35,7 @@ function Navbar() {
             whileTap={{ scale: 0.9 }}
             whileInView={{ opacity: 1 }}
             type='button'
-            className='md:hidden block text-gray-500 hover:text-violet-500 focus:text-violet-500 focus:outline-none'
+            className='md:hidden block text-gray-500 hover:text-cyan-500 focus:text-cyan-500 focus:outline-none'
             onClick={() => setIsOpen(!isOpen)}>
             <IoIosMenu className='h-6 w-6 fill-current' />
           </motion.button>
@@ -48,7 +48,7 @@ function Navbar() {
             <a
               href='#'
               className='text-base text-black py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
-        duration-300 hover:text-violet-500'>
+        duration-300 hover:text-cyan-500'>
               Home
             </a>
           </li>
@@ -56,7 +56,7 @@ function Navbar() {
             <a
               href='#skill'
               className='text-base text-black py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
-        duration-300 hover:text-violet-500'>
+        duration-300 hover:text-cyan-500'>
               Skill
             </a>
           </li>
@@ -64,7 +64,7 @@ function Navbar() {
             <a
               href='#project'
               className='text-base text-black py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
-        duration-300 hover:text-violet-500'>
+        duration-300 hover:text-cyan-500'>
               Project
             </a>
           </li>
@@ -72,7 +72,7 @@ function Navbar() {
             <li className=''>
               <a
                 href='mailto:lioade2007@gmail.com'
-                className='bg-gradient-to-r from-purple-500 to-violet-500 text-white px-4 py-2 mx-8 flex  
+                className='bg-gradient-to-r from-cyan-800 to-cyan-500 text-white px-4 py-2 mx-8 flex  
         text-center justify-center rounded-md ml-8  transition ease-in-out delay-150 bg-purple-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'>
                 Contanct
               </a>

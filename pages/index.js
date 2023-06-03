@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { AiFillGithub, AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 import Image from "next/image";
-import deo from "../public/profile.png";
-import icon from "../public/figma.svg";
-import website from "../public/websites.svg";
+import deo from "../public/profile2.png";
+import icon from "../public/figmaa.svg";
+import website from "../public/website.svg";
 import figma from "../public/project.png";
 import web_1 from "../public/project1.png";
 import web_2 from "../public/project2.png";
@@ -35,7 +35,7 @@ export default function Home() {
             initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
             transition={{ type: "spring", duration: 1, bounce: 0.3 }}>
-            <h2 className='text-4xl py-2 text-purple-500 font-medium md:text-6xl'>
+            <h2 className='text-4xl py-2 text-cyan-500 font-medium md:text-6xl'>
               Putu Adelio
             </h2>
             <h3 className='text-xl py-2  md:text-3xl'>
@@ -53,19 +53,19 @@ export default function Home() {
             animate={{ x: 0 }}
             transition={{ type: "spring", duration: 1, bounce: 0.3 }}>
             <a
-              className='hover:text-violet-500 hover:-translate-y-1 hover:scale-110 
+              className='hover:text-cyan-500 hover:-translate-y-1 hover:scale-110 
               duration-300'
               href='https://github.com/PyAde'>
               <AiFillGithub />
             </a>
             <a
-              className='hover:text-violet-500 hover:-translate-y-1 hover:scale-110 
+              className='hover:text-cyan-500 hover:-translate-y-1 hover:scale-110 
               duration-300 '
               href='https://www.facebook.com/profile.php?id=100072114708290'>
               <AiFillFacebook />
             </a>
             <a
-              className='hover:text-violet-500 hover:-translate-y-1 hover:scale-110 
+              className='hover:text-cyan-500 hover:-translate-y-1 hover:scale-110 
               duration-300'
               href='https://www.instagram.com/putudodo_1/'>
               <AiFillInstagram />
@@ -85,7 +85,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}>
-            <h3 className='text-3xl py-1 text-center font-medium text-violet-500'>
+            <h3 className='text-3xl py-1 text-center font-medium text-cyan-500'>
               My Skill
             </h3>
             <p className='text-md text-center leading-8 text-gray-800'>
@@ -102,7 +102,7 @@ export default function Home() {
               <h3 className='text-lg font-medium pt-8 pb-2'>Design</h3>
               <p>I am able to create UI and UX designs</p>
               <a href='https://www.figma.com/'>
-                <h4 className='text-violet-500 p-5'>Figma</h4>
+                <h4 className='text-cyan-500 p-5'>Figma</h4>
               </a>
             </motion.div>
             <motion.div
@@ -117,7 +117,7 @@ export default function Home() {
                 languages and frameworks is a valuable skill
               </p>
               <a href='https://code.visualstudio.com/'>
-                <h4 className='text-violet-500 p-5'>Visual Studio Code</h4>
+                <h4 className='text-cyan-500 p-5'>Visual Studio Code</h4>
               </a>
             </motion.div>
             <motion.div
@@ -126,7 +126,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className='text-center shadow-xl md:w-1/2 p-10 rounded-xl my-10 duration-300 w-full '>
               <div class='flex flex-col items-start mr-5'>
-                <h2 class='mb-4 text-2xl font-medium text-purple-500'>
+                <h2 class='mb-4 text-2xl font-medium text-cyan-500'>
                   Front End
                 </h2>
                 <div class='flex flex-col items-start mb-4'>
@@ -161,7 +161,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className='text-center shadow-xl md:w-1/2 p-10 rounded-xl my-10 duration-300 w-full '>
               <div class='flex flex-col items-start mr-5'>
-                <h2 class='mb-4 text-2xl font-medium text-purple-500'>
+                <h2 class='mb-4 text-2xl font-medium text-cyan-500'>
                   Back End
                 </h2>
                 <div class='flex flex-col items-start mb-4'>
@@ -194,7 +194,7 @@ export default function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             className='text-center pt-60 pb-32'>
-            <h3 className='text-3xl py-1 text-center text-violet-500'>
+            <h3 className='text-3xl py-1 text-center text-cyan-500'>
               My Projects
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 mx-auto max-w-lg'>
@@ -215,7 +215,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className='rounded-md shadow-md overflow-hidden'>
                     <Image src={web_1} alt='web1' className='w-full' />
-                    <h3 className='font-medium text-xl text-violet-500 text-center'>
+                    <h3 className='font-medium text-xl text-cyan-500 text-center'>
                       Link Tree{" "}
                     </h3>
                   </motion.div>
@@ -229,7 +229,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className='rounded-md shadow-md overflow-hidden'>
                     <Image src={web_2} alt='web2' className='w-full' />
-                    <h3 className='font-medium text-xl text-violet-500 text-center'>
+                    <h3 className='font-medium text-xl text-cyan-500 text-center'>
                       Web Personal CSS
                     </h3>
                   </motion.div>
@@ -243,7 +243,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className='rounded-md shadow-md overflow-hidden'>
                     <Image src={figma} alt='web2' className='w-full' />
-                    <h3 className='font-medium text-xl text-violet-500 text-center'>
+                    <h3 className='font-medium text-xl text-cyan-500 text-center'>
                       Desain Figma
                     </h3>
                   </motion.div>
@@ -254,13 +254,13 @@ export default function Home() {
         </section>
         <footer class='pt-52 pb-12'>
           <div class='container'>
-            <div class='w-full pt-10 border-t border-slate-700'>
-              <p class='font text-xs text-black text-center md:text-xl'>
+            <div class='w-full pt-10 border-t border-cyan-700'>
+              <p class='font text-xs text-cyan-500 text-center md:text-xl'>
                 Dibuat oleh{" "}
                 <a
                   href='https://www.instagram.com/pyadeoop_01/'
                   target='_blank'
-                  class='font-bold text-xs text-purple-500 md:text-xl'>
+                  class='font-bold text-xs text-cyan-500 md:text-xl'>
                   PyAdeOOP
                 </a>
               </p>
