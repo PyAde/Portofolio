@@ -188,7 +188,6 @@ export default function Home() {
             </motion.div>
           </div>
         </section>
-
         <section id='project'>
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
