@@ -25,7 +25,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/profile.png' />
       </Head>
-      <main className='bg-white px-10 md:px-20 lg:px-40  '>
+      <main className='bg-gradient-to-r from-stone-950 to-cyan-900 px-10 md:px-20 lg:px-40  '>
         <section className=' min-h-screen'>
           <React.StrictMode>
             <Navbar />
@@ -38,17 +38,17 @@ export default function Home() {
             <h2 className='text-4xl py-2 text-cyan-500 font-medium md:text-6xl'>
               Putu Adelio
             </h2>
-            <h3 className='text-xl py-2  md:text-3xl'>
+            <h3 className='text-xl py-2 text-white md:text-3xl'>
               Devoloper and Designer.
             </h3>
-            <p className='text-md py-5 mx-auto leading-8 text-gray-800 max-w-lg md:text-xl'>
+            <p className='text-md py-5 mx-auto leading-8 text-white max-w-lg md:text-xl'>
               A 15-year-old student who wants to become a developer and designer
               said. Learning with limited devices will not make your spirit go
               down
             </p>
           </motion.div>
           <motion.div
-            className='text-4xl flex justify-center gap-16 py-3 text-gray-600 md:text-5xl'
+            className='text-4xl flex justify-center gap-16 py-3 text-white md:text-5xl'
             initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
             transition={{ type: "spring", duration: 1, bounce: 0.3 }}>
@@ -88,19 +88,23 @@ export default function Home() {
             <h3 className='text-3xl py-1 text-center font-medium text-cyan-500'>
               My Skill
             </h3>
-            <p className='text-md text-center leading-8 text-gray-800'>
+            <p className='text-md text-center leading-8 text-white'>
               Skills that I have acquired during the course
             </p>
           </motion.div>
-          <div className='w-full px-4 flex flex-wrap justify-center xl:justify-between xl:w-10/12 xl:mx-auto'>
+          <div className='w-full px-4 flex flex-wrap justify-center xl:justify-between xl:w-10/12 xl:mx-auto '>
             <motion.div
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
-              className='text-center shadow-xl p-10 md:w-1/2 rounded-xl my-10 duration-300'>
+              className='text-center shadow-xl p-10 md:w-1/2 rounded-xl duration-300  my-10'>
               <Image src={icon} alt='icon' className='mx-auto w-12 h-12' />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Design</h3>
-              <p>I am able to create UI and UX designs</p>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-cyan-500'>
+                Design
+              </h3>
+              <p className='text-cyan-500'>
+                I am able to create UI and UX designs
+              </p>
               <a href='https://www.figma.com/'>
                 <h4 className='text-cyan-500 p-5'>Figma</h4>
               </a>
@@ -109,10 +113,12 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
-              className='text-center shadow-xl md:w-1/2 p-10 rounded-xl  max-w-full my-10 duration-300 md:mx-auto'>
+              className='text-center shadow-xl md:w-1/2 p-10 rounded-xl max-w-full duration-300  my-10'>
               <Image src={website} alt='icon' className='mx-auto w-12  h-12 ' />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Web Developer</h3>
-              <p>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-cyan-500'>
+                Web Developer
+              </h3>
+              <p className='text-cyan-500'>
                 That,s great! Being able to create a website using programming
                 languages and frameworks is a valuable skill
               </p>
@@ -132,25 +138,33 @@ export default function Home() {
                 <div class='flex flex-col items-start mb-4'>
                   <div class='flex items-center'>
                     <Image src={tailwind} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg font-medium mr-4'>Tailwind</h3>
+                    <h3 class='text-lg font-medium mr-4 text-cyan-500'>
+                      Tailwind
+                    </h3>
                   </div>
                 </div>
                 <div class='flex flex-col items-start mb-4'>
                   <div class='flex items-center'>
                     <Image src={react} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg font-medium mr-4'>React Js</h3>
+                    <h3 class='text-lg font-medium mr-4 text-cyan-500'>
+                      React Js
+                    </h3>
                   </div>
                 </div>
                 <div class='flex flex-col items-start mb-4'>
                   <div class='flex items-center'>
                     <Image src={nextjs} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg font-medium mr-4'>Next Js</h3>
+                    <h3 class='text-lg font-medium mr-4 text-cyan-500'>
+                      Next Js
+                    </h3>
                   </div>
                 </div>
                 <div class='flex flex-col items-start'>
                   <div class='flex items-center'>
                     <Image src={js} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg font-medium mr-4'>JavaScripts</h3>
+                    <h3 class='text-lg font-medium mr-4 text-cyan-500'>
+                      JavaScripts
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -167,19 +181,21 @@ export default function Home() {
                 <div class='flex flex-col items-start mb-4'>
                   <div class='flex items-center'>
                     <Image src={php} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg font-medium mr-4'>PhP</h3>
+                    <h3 class='text-lg font-medium mr-4 text-cyan-500'>PhP</h3>
                   </div>
                 </div>
                 <div class='flex flex-col items-start mb-4'>
                   <div class='flex items-center'>
                     <Image src={node} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg font-medium mr-4'>Node Js</h3>
+                    <h3 class='text-lg font-medium mr-4 text-cyan-500'>
+                      Node Js
+                    </h3>
                   </div>
                 </div>
                 <div class='flex flex-col items-start'>
                   <div class='flex items-center'>
                     <Image src={nextjs} alt='icon' class='w-12 h-12' />
-                    <h3 class='text-lg pr-10 font-medium mr-4 md:pr-0'>
+                    <h3 class='text-lg pr-10 font-medium mr-4 md:pr-0 text-cyan-500'>
                       Next Js
                     </h3>
                   </div>
@@ -197,7 +213,7 @@ export default function Home() {
             <h3 className='text-3xl py-1 text-center text-cyan-500'>
               My Projects
             </h3>
-            <p className='text-md py-5 leading-8 text-gray-800 mx-auto max-w-lg'>
+            <p className='text-md py-5 leading-8 text-white mx-auto max-w-lg'>
               I created this project based on a course and personal learning. I
               made this project during my free time and when I didnt have any
               school assignments.
@@ -215,7 +231,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className='rounded-md shadow-md overflow-hidden'>
                     <Image src={web_1} alt='web1' className='w-full' />
-                    <h3 className='font-medium text-xl text-cyan-500 text-center'>
+                    <h3 className='font-medium text-sm md:text-lg text-cyan-500 text-center'>
                       Link Tree{" "}
                     </h3>
                   </motion.div>
@@ -229,7 +245,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className='rounded-md shadow-md overflow-hidden'>
                     <Image src={web_2} alt='web2' className='w-full' />
-                    <h3 className='font-medium text-xl text-cyan-500 text-center'>
+                    <h3 className='font-medium text-sm md:text-lg text-cyan-500 text-center'>
                       Web Personal CSS
                     </h3>
                   </motion.div>
@@ -243,7 +259,7 @@ export default function Home() {
                     transition={{ duration: 0.6 }}
                     className='rounded-md shadow-md overflow-hidden'>
                     <Image src={figma} alt='web2' className='w-full' />
-                    <h3 className='font-medium text-xl text-cyan-500 text-center'>
+                    <h3 className='font-medium text-sm md:text-lg text-cyan-500 text-center'>
                       Desain Figma
                     </h3>
                   </motion.div>

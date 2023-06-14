@@ -43,11 +43,11 @@ function Navbar() {
         <ul
           className={`${
             isOpen ? "flex flex-col" : "hidden"
-          } md:flex md:flex-row md:pb-0 pb-4 md:relative md:z-auto md:left-0 md:w-auto w-full bg-white md:bg-transparent md:flex-1 md:justify-end md:items-center md:space-x-8 md:space-y-0 space-y-4 px-4 md:px-0 text-center md:text-left`}>
+          } md:flex md:flex-row md:pb-0 pb-4 md:relative md:z-auto md:left-0 md:w-auto w-full  md:bg-transparent md:flex-1 md:justify-end md:items-center md:space-x-8 md:space-y-0 space-y-4 px-4 md:px-0 text-center md:text-left`}>
           <li>
             <a
               href='#'
-              className='text-base text-black py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
+              className='text-base text-white py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
         duration-300 hover:text-cyan-500'>
               Home
             </a>
@@ -55,7 +55,7 @@ function Navbar() {
           <li>
             <a
               href='#skill'
-              className='text-base text-black py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
+              className='text-base text-white py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
         duration-300 hover:text-cyan-500'>
               Skill
             </a>
@@ -63,7 +63,7 @@ function Navbar() {
           <li>
             <a
               href='#project'
-              className='text-base text-black py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
+              className='text-base text-white py-2 mx-8 flex  text-center justify-center  hover:-translate-y-1 hover:scale-110 
         duration-300 hover:text-cyan-500'>
               Project
             </a>
